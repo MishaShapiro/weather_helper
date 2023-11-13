@@ -1,0 +1,77 @@
+.shortDate, .longDate {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 10px 10px 10px 0px;
+}
+
+.longDate {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.currentdate {
+    width: 300px;
+}
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.searchinput {
+    border: 0px;
+    padding: 5px;
+}
+
+.container {
+    margin: 0px 30px 0px;
+}
+
+.header_btn {
+    color: rgba(0, 0, 0, 0.5);
+
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.header_btn:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgba(4, 30, 100, 0.1);
+}
+
+.header_btns {
+    display: flex;
+    gap: 20px;
+}
+
+.header_btn:active {
+    transition: 0.2s;
+    color: white;
+    background-color: rgb(4 29 100);
+}
+
+.search__error_bar {
+    position: absolute;
+    bottom: -15px;
+    color: red;
+    display: none;
+    font-size: 14px;
+}
+
+.search__error_bar_active {
+    display: block;
+}

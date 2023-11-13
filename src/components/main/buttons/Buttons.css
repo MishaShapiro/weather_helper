@@ -1,0 +1,29 @@
+.buttons {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    color: rgba(0, 0, 0, 0.5);
+
+    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 0px;
+    border-radius: 15px;
+}
+
+.btn_active {
+    color: white;
+    background-color: rgb(4 29 100);
+}
+
+.btn:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgba(4, 30, 100, 0.100);
+}
+
+.btn_active:hover {
+    background-color: rgba(4, 30, 100, 0.9);
+}

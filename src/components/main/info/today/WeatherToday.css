@@ -1,0 +1,46 @@
+.info__today {
+    background-color: rgb(215, 245, 255);
+    margin: 50px 70px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+.info__today {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.today__city {
+    font-size: 48px;
+}
+
+.today__date {
+    font-size: 16px;
+}
+
+.today__maintemp {
+    font-size: 96px;
+}
+
+.today__descriptio {
+    font-size: 24px;
+}
+
+.today__maininfo {
+    display: flex;
+    gap: 20px;
+}
+
+.today__otherinfo {
+    margin-top: 10px;
+
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
